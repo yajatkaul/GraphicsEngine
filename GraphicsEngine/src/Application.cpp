@@ -167,7 +167,6 @@ int main(void)
             /* Render here */
             GLCall(glClear(GL_COLOR_BUFFER_BIT));
 
-            GLCall(glBindVertexArray(0));
             GLCall(glUseProgram(shader));
             GLCall(glUniform4f(location, r, 0.0f, 1.0f, 1.0f));
 
